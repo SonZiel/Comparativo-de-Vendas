@@ -1,0 +1,78 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    margin:20px;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+.container{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    padding:20px;
+    border:1px solid #ccc;
+    width:200px;
+    border-radius: 15px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.card:nth-child(odd) {
+    background: linear-gradient(to bottom, #033614, #275a2e);
+}
+
+.card:nth-child(even) {
+    background: linear-gradient(to bottom, #001f3f, #345b7e);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    cursor:pointer
+}
+
+.card.negative {
+    background: linear-gradient(to bottom, #8B0000, #740d21);
+}
+
+tr.negative {
+    background: linear-gradient(to bottom, #8B0000, #70071c);
+}
+
+.tabela{
+    margin-top:60px;
+    background:white;
+    padding:20px;
+    border:1px solid #ccc;
+    background: linear-gradient(to bottom, #05471b, #205828);
+    border-radius: 15px;
+    color: white;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background: linear-gradient(to bottom,  #16311c, #065517);
+    color: white;
+    cursor:pointer
+}
+
+th, td{
+    padding:8px;
+    text-align:center;
+    transition: all 0.3s ease;
+}
+
+th{
+    background: linear-gradient(to bottom, #001f3f, #345b7e);
+}
+
+td:hover {
+    background: rgba(255,255,255,0.1);
+    transform: scale(1.02);
+}
