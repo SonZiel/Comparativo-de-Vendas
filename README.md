@@ -14,6 +14,13 @@ Criar um gadget visual e analítico para:
 
   Melhorar a tomada de decisão comercial
 
+  Preview:
+  <img width="1915" height="971" alt="image" src="https://github.com/user-attachments/assets/a428846d-52b1-4408-ac44-850fb39c42e7" />
+  <img width="1226" height="312" alt="image" src="https://github.com/user-attachments/assets/ad64618a-e351-4050-a408-b9617ab20e36" />
+  <img width="1853" height="468" alt="image" src="https://github.com/user-attachments/assets/dfb2005b-3cd8-46d2-91e2-28b72fe1b176" />
+
+
+
 🧠 Funcionalidades
 📅 Comparativo mensal
 
